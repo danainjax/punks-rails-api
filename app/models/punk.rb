@@ -1,0 +1,2 @@
+class Punk < ApplicationRecord
+end
