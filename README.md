@@ -1,6 +1,6 @@
 # README
 
-Back end for punks project, utilizes a front end Vanilla JS Framework in guthub.com/danainjax/punks-front-end
+Back end for punks project, utilizes a front end Vanilla JS repo at github.com/danainjax/punks-front-end
 
 ![CryptoDana](public/images/1660.PNG)
 
