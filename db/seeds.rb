@@ -5,3 +5,4 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Punk.create(punktype: 'female', image: 'http://imageurl.lotsofdata.jpg', accessories: 'glasses')
