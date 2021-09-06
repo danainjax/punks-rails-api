@@ -1,7 +1,7 @@
 class PunksController < ApplicationController
 
     def index
-        punks = Punk.all
+        punks = Punk.limit(100)
         render json: punks
 
     end
