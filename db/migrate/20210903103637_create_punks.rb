@@ -4,7 +4,7 @@ class CreatePunks < ActiveRecord::Migration[6.1]
       t.string :punktype
       t.string :image
       t.string :accessories
-
+  
       t.timestamps
     end
   end

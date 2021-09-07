@@ -1,6 +1,5 @@
 class Punk < ApplicationRecord
 
-
     def self.get_punks
         response = RestClient.get("https://cryptopunks.herokuapp.com/api/punks")
     #    byebug
