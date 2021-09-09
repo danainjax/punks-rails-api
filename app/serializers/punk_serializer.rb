@@ -1,3 +1,3 @@
 class PunkSerializer < ActiveModel::Serializer
-  attributes :id, :type, :image, :accessories
+  attributes :id, :punktype, :image, :accessories, :comments
 end
