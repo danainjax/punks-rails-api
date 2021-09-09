@@ -6,6 +6,11 @@ class PunksController < ApplicationController
 
     end
 
+    def show
+        punk = Punk.find_by(id: params[:id])
+        render json: punk
+    end
+
 
 
 private
