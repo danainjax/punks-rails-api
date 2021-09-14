@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 2021_09_07_214439) do
   create_table "comments", force: :cascade do |t|
     t.string "text"
     t.integer "punk_id"
+    t.integer "user_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -31,7 +32,7 @@ ActiveRecord::Schema.define(version: 2021_09_07_214439) do
   end
 
   create_table "users", force: :cascade do |t|
-    t.string "name"
+    t.string "username"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
