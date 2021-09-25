@@ -1,5 +1,6 @@
 class Punk < ApplicationRecord
     has_many :comments
+    has_many :likes
 
     def self.get_punks
         response = RestClient.get("https://cryptopunks.herokuapp.com/api/punks")
