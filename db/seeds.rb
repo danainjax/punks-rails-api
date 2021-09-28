@@ -6,6 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 # Punk.create(punktype: 'female', image: 'https://www.larvalabs.com/cryptopunks/cryptopunk100.png', accessories: 'tassle hat')
+
 Punk.get_punks
 
 # Punk.create(punktype: "Female","image":"https://www.larvalabs.com/cryptopunks/cryptopunk100.png","accessories":["Tassle Hat"])

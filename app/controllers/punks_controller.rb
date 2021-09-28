@@ -15,6 +15,6 @@ class PunksController < ApplicationController
 
 private
     def punk_params
-        params.require(:punk).permit(:punktype, :image, :accessories, :comment_id, :like_id)
+        params.require(:punk).permit(:punktype, :image, :accessories, :comment_id, :like_id, :user_id)
     end
 end

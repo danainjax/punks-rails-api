@@ -19,6 +19,6 @@ class UsersController < ApplicationController
     private
 
     def comment_params
-        params.require(:user).permit(:username, :comment_id, :like_id)
+        params.require(:user).permit(:username, :comment_id, :like_id, :punk_id)
     end 
 end
