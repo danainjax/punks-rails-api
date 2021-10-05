@@ -6,6 +6,11 @@ class PunksController < ApplicationController
 
     end
 
+    def most_likes
+        punks = Punk.most_likes
+        render json: punks
+    end
+
     def show
         punk = Punk.find_by(id: params[:id])
         render json: punk

@@ -3,6 +3,11 @@ class Punk < ApplicationRecord
     has_many :likes
     belongs_to :user
 
+    def self.most_likes
+        # attribute to https://linuxtut.com/en/7604f709a9ec28808540/
+        return find(Like.group(:punk_id).order(Arel.sql('count(punk_id) desc')).pluck(:punk_id))
+    end
+
     def self.get_punks
         response = RestClient.get("https://cryptopunks.herokuapp.com/api/punks")
     #    byebug
