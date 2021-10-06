@@ -1,28 +1,48 @@
 # README
 
-Back end for punks project, utilizes a front end Vanilla JS repo at github.com/danainjax/punks-front-end
-
 ![CryptoDana](public/images/1660.PNG)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Back end for CryptoPunks vanilla JS application
 
-Things you may want to cover:
+## Front end can be found at [https://github.com/danainjax/punks-front-end](https://github.com/danainjax/punks-front-end)
 
-* Ruby version
+'punks' is a Rails application on the back end with a vanilla javascript front end.   
 
-* System dependencies
+A punk is a visual representation of the popular CryptoPunks, the World's first NFT's, non-fungible tokens, first on the blockchain art on Ethereum. This project combines rendering the images of those NFTs and their attributes, the ability to search for a punk by its number (there are over 10,000), a way to 'comment' and 'like' a punk, and for further development a way to implement a contract.  
 
-* Configuration
+ This project combines features of social media, and was a useful tool in learning JavaScript. The business problem it solves was learning the language through hands-on building.   
 
-* Database creation
+Built with:  
 
-* Database initialization
+JavaScript, CSS, Ruby on Rails, and a lot of early mornings. 
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+![DevFuel](public/images/SnowWhite.jpeg)
 
-* Deployment instructions
+Deployment - Dependencies  
 
-* ...
+Clone this repo down to your machine.
+
+* Run `rails db:create`  
+
+* `rails db:seed`
+
+* `rails s`
+
+Clone the front end repo 
+[https://github.com/danainjax/punks-front-end](https://github.com/danainjax/punks-front-end)
+
+and open index.html with live server 
+
+or `open index.html` in the console  
+
+
+Author: 
+
+*Dana Pughakoff*
+
+License:
+Open Source through MIT License (See LICENSE file)
+
+Acknowledgements:
+Larva Labs for inspiration, as well as Gabriel Hicks for his REST API full of Punk details.
