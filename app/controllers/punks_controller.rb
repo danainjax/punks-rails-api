@@ -7,8 +7,8 @@ class PunksController < ApplicationController
     end
 
     def most_likes
-        punks = Punk.most_likes
-        render json: punks
+        punk = Punk.most_likes[0]
+        render json: punk
     end
 
     def show
